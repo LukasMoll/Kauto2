@@ -1,0 +1,114 @@
+actual_next_line,predicted_next_line,similarity,exact_match,predicted_next_line_fine_tuned,similarity_fine_tuned,exact_match_fine_tuned
+        },        },100,True,        },100,True
+@file:Suppress("INVISIBLE_MEMBER", "INVISIBLE_REFERENCE", "CANNOT_OVERRIDE_INVISIBLE_MEMBER"),package net.mamoe.mirai.internal.network.components,8,False,package net.mamoe.mirai.internal.network.components,8,False
+import androidx.compose.ui.platform.testTag,import androidx.compose.ui.platform.testTag,100,True,import androidx.compose.ui.platform.testTag,100,True
+    val EXPANSIVE_INHERITANCE: KtDiagnosticFactory0 by error0<PsiElement>(),    val EXPANDED_TYPE_CANNOT_BE_INTEGER_TYPE: KtDiagnosticFactory0 by error0<PsiElement>(),81,False,    val EXPANDED_TYPE_CANNOT_BE_INHERITED: KtDiagnosticFactory0 by error0<PsiElement>(),85,False
+    builder {,,0,False,,0,False
+// FILE: Java1.java,// WITH_STDLIB,30,False,// WITH_STDLIB,30,False
+            // Some comment,            // Some comment,100,True,            // Some comment,100,True
+  Either.Left(12).map { _: Nothing -> "flower" } shouldBe Either.Left(12),  Either.Left(12).map { _: Int -> "flower" } shouldBe Either.Left(12),94,False,  Either.Left(12).map { _: Int -> "flower" } shouldBe Either.Left(12),94,False
+) {,) {,100,True,) {,100,True
+package org.isoron.uhabits.widgets.views,,0,False,,0,False
+    private val selectionLiveData: SelectionLiveData<Int>,    private val principalListLiveData: SelectionLiveData<List<PrincipalItem>>,73,False,    private val principalListLiveData: SelectionLiveData<List<PrincipalItem>>,73,False
+import androidx.compose.foundation.layout.RowScope,import androidx.compose.foundation.layout.Box,91,False,import androidx.compose.foundation.layout.Box,91,False
+    for (element in this) result.add(element),    for (i in this) result.add(i),79,False,    for (i in this) result.add(i),79,False
+    // A temporary API for compatibility with Flysto user project, see KQA-1254,    override var inlineStatus: IrStatementOrigin? = null,34,False,    override var inlineStatus: IrStatementOrigin? = null,34,False
+import com.ichi2.anki.CollectionManager,import androidx.core.content.edit,50,False,import androidx.appcompat.app.AppCompatActivity,42,False
+ * Licensed under the Apache License, Version 2.0 (the "License");, * Licensed under the Apache License, Version 2.0 (the "License");,100,True, * Licensed under the Apache License, Version 2.0 (the "License");,100,True
+},},100,True,},100,True
+    },    },100,True,    },100,True
+ *, *,100,True, *,100,True
+            val supportedConfigIds = nearbyRangingCapabilities.supportedConfigIds.toMutableList(),            val supportedRangingTypes = nearbyRangingCapabilities.supportedRangingTypes,78,False,            val supportedRangingIntervals = nearbyRangingCapabilities.supportedRangingIntervals,79,False
+/**,,0,False,,0,False
+    forEach { key, value ->,    forEach { key, value ->,100,True,    forEach { key, value ->,100,True
+        runLogged("tdf($this);") { this },    this,33,False,    runLogged("provideDelegate") { this },68,False
+    val unrolled = arrayListOf<KtQualifiedExpression>(),    val result = ArrayList<KtQualifiedExpression>(),87,False,    val result = ArrayList<KtQualifiedExpression>(),87,False
+    return localResult;,,0,False,,0,False
+actual fun <!AMBIGUOUS_EXPECTS{JVM}, EXPECT_AND_ACTUAL_IN_THE_SAME_MODULE, EXPECT_AND_ACTUAL_IN_THE_SAME_MODULE{JVM}!>main<!>() {},actual fun <!AMBIGUOUS_EXPECTS, AMBIGUOUS_ACTUALS{JVM}, EXPECT_AND_ACTUAL_IN_THE_SAME_MODULE,72,False,actual fun <!AMBIGUOUS_EXPECT_ACTUAL!>main<!>() {},56,False
+    class MockCls {,,0,False,,0,False
+    val il = i.local3("IL"),    val il = i.local1(42L),87,False,    val il = i.local1(42L),87,False
+private val contributors = ServiceLoader.load(AsserterContributor::class.java).toList(),/**,0,False,/**,0,False
+        return AllCandidatesResolutionResult(completedCandidates, resolutionCallbacks.createEmptyConstraintSystem()),,0,False,,0,False
+ *, *,100,True, *,100,True
+            progress = { 0.75f },,            progress = { 0.75f },,100,True,            progress = { 0.75f },,100,True
+    },    },100,True,    },100,True
+        // Confirm we prevent edits after a trim failure.,        // Confirm all entries are evicted after a trim failure.,81,False,        // Confirm all values are evicted after a trim failure.,82,False
+    fun foo(),    fun bar() {},69,False,    fun bar() {},69,False
+import org.jetbrains.exposed.sql.tests.shared.assertEquals,import org.jetbrains.exposed.sql.tests.TestDB,82,False,import org.jetbrains.exposed.sql.tests.TestDB,82,False
+        firebaseAnalytics.logEvent(event.type) {,        firebaseAnalytics.logEvent(event.type) {,100,True,        firebaseAnalytics.logEvent(event.type) {,100,True
+import org.junit.Rule,import org.junit.Rule,100,True,import org.junit.Rule,100,True
+actual open class Foo : Supertype() {,actual open class Foo : Supertype() {,100,True,actual open class Foo : Supertype() {,100,True
+                    if (function.isExternal) {,                    val function = this.symbol.owner,67,False,                    val functionHasExtensionReceiver = function.extensionReceiverParameter != null,53,False
+import androidx.compose.ui.text.font.FontFamily,,0,False,,0,False
+import org.jetbrains.kotlin.fir.plugin.AllOpen,// FILE: lib.kt,16,False,// FILE: lib.kt,16,False
+fun showThemedToast(context: Context, text: CharSequence, shortLength: Boolean) {,,0,False,,0,False
+package org.isoron.uhabits.core.commands,,0,False,,0,False
+        if (s == null) {,        s = foo(),63,False,        s = foo(),63,False
+        channel.writeFully(byteArrayOf(3, 4)),,0,False,,0,False
+fun test2(a: Array<out Int>) {,,0,False,,0,False
+    },    },100,True,    },100,True
+    },    },100,True,    },100,True
+            ),                imageLoader = imageLoader,,44,False,                imageLoader = imageLoader,,44,False
+    test(Double),    test(Double),100,True,    test(Double.Companion),76,False
+        transaction(db) {,        try {,63,False,        try {,63,False
+fun box(): String {,,0,False,,0,False
+expect class PointerEvent {,,0,False,,0,False
+                    get("2") {,                    get("5") {,97,False,                    get("5") {,97,False
+// MODULE: platform()()(common),,0,False,,0,False
+ * https://github.com/mamoe/mirai/blob/dev/LICENSE, * https://github.com/mamoe/mirai/blob/main/LICENSE,93,False, * https://github.com/mamoe/mirai/blob/main/LICENSE,93,False
+// KT-59544,import kotlin.test.*,6,False,import kotlin.test.*,6,False
+    // CHECK-DEBUG: call %struct.ObjHeader* @AllocInstance,    // CHECK-LABEL: call %struct.ObjHeader* @"kfun:#A#ctor(){}A",72,False,    // CHECK-LABEL: call %struct.ObjHeader* @"kfun:#A#ctor(){}kotlin.Int"(i32 %0, i32 %1),63,False
+expect fun <T : @Ann Any> foo(),,0,False,,0,False
+ *, *,100,True, *,100,True
+import android.content.Context,import android.app.Activity,63,False,import android.app.Activity,63,False
+    override val isLiftedUp get() = isConst,    // so we don't need to lift it up again,44,False,    // so we don't need to lift it up again,44,False
+ * distributed under the License is distributed on an "AS IS" BASIS,, * distributed under the License is distributed on an "AS IS" BASIS,,100,True, * distributed under the License is distributed on an "AS IS" BASIS,,100,True
+    a.v,    return if (a.v == 5) "OK" else "fail",29,False,    return if (a.v == 5) "OK" else "fail",29,False
+        @SerialName("default_child"),        @SerialName("map_child"),88,False,        @SerialName("map_child"),88,False
+        get() = FirResult(listOf(ModuleCompilerAnalyzedOutput(session, scopeSession, firFiles!!))),        get() = FirResult.Success(firFiles!!),57,False,        get() = FirResult.success(firFiles!!),59,False
+import java.util.stream.*,,0,False,,0,False
+import assertk.assertions.size,import org.junit.Test,47,False,import org.junit.Test,47,False
+object O {,,0,False,,0,False
+    @AfterEach,    @AfterEach,100,True,    @AfterEach,100,True
+    x = <!TYPE_MISMATCH!>foo()<!>,    x = foo(),57,False,    x = foo(),57,False
+        },        },100,True,        },100,True
+                A Discovery,                A Discovery,100,True,                A Discovery,100,True
+import org.jetbrains.kotlin.analysis.project.structure.KtModule,import org.jetbrains.kotlin.analysis.api.symbols.*,74,False,import org.jetbrains.kotlin.analysis.api.KtAnalysisSession,71,False
+    override fun <D> transformDelegate(transformer: FirTransformer<D>, data: D): FirFieldImpl {,,0,False,,0,False
+import java.util.UUID,import java.util.zip.ZipFile,69,False,import java.util.zip.ZipFile,69,False
+class Koo {,,0,False,,0,False
+            accountActivator = get(),,            authViewModel = get<AuthViewModel>(),,60,False,            authViewModel = get<AuthViewModel>(),,60,False
+fun other() {,import androidx.compose.ui.Modifier,17,False,import androidx.compose.ui.Modifier,17,False
+@java.lang.annotation.Target(PACKAGE),import java.lang.annotation.ElementType.TYPE,62,False,import kotlin.test.assertEquals,29,False
+    override fun execute(command: Runnable) {,,0,False,,0,False
+import org.w3c.dom.css.CSSRule,import org.jetbrains.compose.web.css.selectors.CSSSelector,55,False,import org.jetbrains.compose.web.css.keywords.CSSKeywords,53,False
+) : SymbolBasedType<T>(typeMirror, javac), JavaClassifierType {,) : SymbolBasedType<T>(typeMirror, javac), JavaClassifierType {,100,True,) : SymbolBasedType<T>(typeMirror, javac), JavaClassifierType {,100,True
+        return field,        return 1,83,False,        return 1,83,False
+        },        },100,True,        },100,True
+    // these both also ok (with smart cast / unnecessary safe call),    // this should be an error,39,False,    // this should be an error,39,False
+    @Test,,0,False,,0,False
+import kotlinx.cinterop.*,import kotlin.native.Platform,67,False,import kotlin.native.Platform,67,False
+ * Unless required by applicable law or agreed to in writing, software, * Unless required by applicable law or agreed to in writing, software,100,True, * Unless required by applicable law or agreed to in writing, software,100,True
+        },        },100,True,        },100,True
+fun String.replInputAsXml(): String {,,0,False,,0,False
+},},100,True,},100,True
+        Core.connectivity.activeNetwork ?: throw UnknownHostException() // failed to listen, return current if available,        val network = networkActor.receive(),38,False,        val response = networkActor.receive() as NetworkMessage.Get,39,False
+    },    },100,True,    },100,True
+        val unitToUpgradeTo = testGame.createBaseUnit(),        val unitToUpgradeTo = testGame.createBaseUnit(),100,True,        val unitToUpgradeTo = testGame.createBaseUnit(),100,True
+import androidx.privacysandbox.tools.core.model.AnnotatedValue,import androidx.privacysandbox.tools.core.model.AnnotatedValue,100,True,import androidx.privacysandbox.tools.core.model.AnnotatedValue,100,True
+        fun `does not report an indentation inside multi-line strings`() {,        fun `does not report a class and function declaration with a newline at the end`() {,69,False,        fun `does not report a class declaration with no whitespaces at the end`() {,67,False
+                    destinationDirectory.set(File(project.buildDir, "$outputDirName")),                    destinationDirectory.set(project.layout.buildDirectory.dir("$outputDirName")),86,False,                    destinationDirectory.set(project.layout.buildDirectory.dir("$outputDirName")),86,False
+    index: Int,,    index: Int,,100,True,    index: Int,,100,True
+fun <K : C<Int>> main() {,,0,False,,0,False
+        assertThat(buildResult.spanStyles[0].item).isEqualTo(style),        assertThat(buildResult.spanStyles[0]).isEqualTo(style),96,False,        assertThat(buildResult.spanStyles[0]).isEqualTo(style),96,False
+// https://youtrack.jetbrains.com/issue/KT-15871,,0,False,,0,False
+            break,            break,100,True,            break,100,True
+    val jName = localJClass.simpleName,    val jName = localJClass.simpleName,100,True,    val jName = localJClass.getName(),88,False
+ */, */,100,True, */,100,True
+fun B.test() {,,0,False,,0,False
+                    },,                    },,100,True,                    },,100,True
+    val messageCollector: MessageCollector,    val toolOutput = compilerXmlOutput.toString(Charsets.UTF_8.name()),34,False,    val toolOutput = compilerXmlOutput.toString(Charsets.UTF_8.name()),34,False
+// DO NOT MODIFY IT MANUALLY.,// DO NOT MODIFY IT MANUALLY.,100,True,// DO NOT MODIFY IT MANUALLY.,100,True
+        IdeNativeStdlibDependencyResolver.resolve(commonMain).assertMatches(stdlibCoordinates),        project.dependencies {,35,False,        IdeNativeStdlibDependencyResolver.resolve(commonMain) {,78,False
+            <!SMARTCAST_IMPOSSIBLE!>x<!>.hashCode(),            x.inc(),46,False,            x.inc(),46,False
+@RequiresTypeResolution,@RequiresTypeResolution,100,True,@RequiresTypeResolution,100,True
