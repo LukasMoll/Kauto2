@@ -1,8 +1,8 @@
 CUDA_VISIBLE_DEVICES=0 WANDB_PROJECT=personal-code-copilot python train.py \
---model_name_or_path "microsoft/Phi-3-mini-128k-instruct" \
---dataset_name "/home/user/Kauto2/dataset_parser/train_data" \
+--model_name_or_path "microsoft/phi-1_5" \
+--dataset_name "/home/user/Kauto2/dataset_parser/train_data2" \
 --splits "train" \
---max_seq_len 4096 \
+--max_seq_len 2048 \
 --max_steps 10000 \
 --save_steps 2000 \
 --eval_steps 1000 \
@@ -20,7 +20,7 @@ CUDA_VISIBLE_DEVICES=0 WANDB_PROJECT=personal-code-copilot python train.py \
 --weight_decay 0.1 \
 --warmup_ratio 0.1 \
 --max_grad_norm 1.0 \
---output_dir "phi-3_kotlin_fine_tuned_128k" \
+--output_dir "phi-1.5_kotlin_fine_tuned" \
 --per_device_train_batch_size 1 \
 --per_device_eval_batch_size 1 \
 --gradient_accumulation_steps 4 \
