@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="PYTHON_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/dataset_parser" />
+      <excludeFolder url="file://$MODULE_DIR$/fine_tuning" />
+      <excludeFolder url="file://$MODULE_DIR$/phi-3_kotlin_fine_tuned_4k2" />
+    </content>
+    <orderEntry type="jdk" jdkName="Python 3.11 (tensorml)" jdkType="Python SDK" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+  <component name="PyDocumentationSettings">
+    <option name="format" value="PLAIN" />
+    <option name="myDocStringFormat" value="Plain" />
+  </component>
+</module>

@@ -13,3 +13,5 @@ deepspeed
 tqdm
 safetensors
 pandas
+fuzzywuzzy
+python-levenshtein
