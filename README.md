@@ -38,11 +38,11 @@ To fine tune you can edit the run_peft.sh script inside the fine_tuning folder t
 
 To get the kotlin line completion results:
 ```bash
-python analysis/generate_kotlin_line_completion.py <model id> < fine tuned model id>
+python analysis/generate_kotlin_line_completion.py <model id> <fine tuned model id>
 ```
 To get the python method completion results:
 ```bash
-python analysis/generate_python_method_completion.py
+python analysis/generate_python_method_completion.py <model id> <fine tuned model id>
 ```
 
 ### Results
