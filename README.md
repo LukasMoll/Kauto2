@@ -76,7 +76,7 @@ Phi 3 significantly enhanced its capabilities for Kotlin code autocomplete throu
 This project uses or adapts code from the following projects:
 
 - **[CodeXGLUE](https://github.com/microsoft/CodeXGLUE)** Used method completion and line completion code for Python
-- **[LLM-Workshop](https://github.com/pacman100/LLM-Workshop)** Used QLoRA PEFT code
+- **[LLM-Workshop](https://github.com/pacman100/LLM-Workshop)** Used QLoRA PEFT fine tuning code
 
 I appreciate the hard work and effort by these contributors and their willingness to share their work with the open source community.
 
