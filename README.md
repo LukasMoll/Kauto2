@@ -31,6 +31,8 @@ To fine tune you can edit the run_peft.sh script inside the fine_tuning folder t
 ```bash
 ./fine_tuning/run_peft.sh
 ```
+![train_loss](fine_tuning/fine_tuning_train_loss.png)
+![eval_loss](fine_tuning/fine_tuning_eval_loss.png)
 
 ## Analysis
 
@@ -42,8 +44,6 @@ To get the python method completion results:
 ```bash
 python analysis/generate_python_method_completion.py
 ```
-![train_loss](fine_tuning/fine_tuning_train_loss.png)
-![eval_loss](fine_tuning/fine_tuning_eval_loss.png)
 
 ### Results
 I focused on Kotlin line completion to evaluate my fine-tuned SLM, as it aligns with my frequent usage and is relatively straightforward to assess.
