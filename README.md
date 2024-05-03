@@ -31,7 +31,9 @@ To fine tune you can edit the run_peft.sh script inside the fine_tuning folder t
 ```bash
 ./fine_tuning/run_peft.sh
 ```
-The fine tuning process was done on an RTX 4090 and 10.000 data points. The training objective is fill in the middle.
+The fine tuning process was done on an RTX 4090 and 10.000 data points. 
+The training objective is fill in the middle.
+I use QLoRA and PEFT to speed up the process and keep the costs down.
 ![train_loss](fine_tuning/fine_tuning_train_loss.png)
 ![eval_loss](fine_tuning/fine_tuning_eval_loss.png)
 
