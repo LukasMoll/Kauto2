@@ -1,0 +1,100 @@
+def __init__(self, user: User, message: String) { super.debug(user, message) }
+def __init__(self, user: User, message: String): super().__init__(user, message) this.level = Message.Level.SUCCESS
+if response.status_code == 200: response_json = response.json() if response_json["success"]: self.messages.append(response_json["data"]) return
+return Table(name, auth, eager)
+def __init__(self, methods: List[str], require_token: bool = True): self.methods = methods self.require_token = require_token
+def get_tweets(user, pages=<NUM_LIT>): """Gets tweets for a given user, via the Twitter frontend API.""" return get_tweets(user, pages=pages)
+def add_deformation(chn_names, data):
+return self.leaves()
+return self.nodes[label]
+return self.get_leaf_names(self.children)
+return _create_node( cls, name, length, descendants, **kw
+@property @Deprecated( "Use the `newick` property instead", level = DeprecationLevel.ERROR, replace_with = "newick", ) @get:Deprecated( "Use the `newick` property instead", level = DeprecationLevel.ERROR, replace_with = "newick", ) @set:Deprecated( "Use the `newick` property instead", level = DeprecationLevel.ERROR, replace_with = "newick", ) @setter @Deprecated( "Use the `newick` property instead", level = DeprecationLevel.ERROR, replace_with = "newick", ) @get:Deprecated( "Use the `
+return loads(s, strip_comments=strip_comments, **kw)
+return self.walk(visitor, predicate, **kw)
+if self.is_leaf(): return self.label
+if self._closed: return
+self.timeout = timeout
+return self.connection.recv(buffer_size)
+return self.read_message(buffer_size)
+self.write(msg.to_bytes())
+return self.wait_for(cmd, value, timeout * 60)
+return self._connect()
+return await self._send(commands)
+if self._closed: return
+
+if self.autofocus_job is not None: return
+if self._closed: return
+def give_another_quote(q): return q + q
+return self.get(filter=params)
+if result.href == self.href: return result
+return self.query(**params)
+
+doc = doc.replace('\n', ' ') doc = doc.replace('@click.option', '@option') doc = doc.replace('@click.argument', '@argument') doc = doc.replace('@click.confirmation', '@confirmation') doc = doc.replace('@click.prompt', '@prompt') doc = doc.replace('@click.prompt_regex', '@prompt_regex') doc = doc.replace('@click.prompt_regexp', '@prompt_regexp') doc = doc.replace('@click.prompt_text', '@prompt_text') doc = doc.replace('@click.prompt_text_regex', '@prompt_text_regex') doc = doc.replace('@click.prompt_text_regexp', '@prompt_text_regex
+
+
+return """ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/twitter-bootstrap/3.3.7/css/bootstrap.min.css"> <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/twitter-bootstrap/3.3.7/css/bootstrap-theme.min.css"> """
+return TEMPLATE_DEBUG.format(version=version)
+return render_template( "djfrontend/twbs_js.html", version=version, files=files, )
+val response = client.get( "/v2/search/restaurants", params = mapOf( "entity_id" to entity_id, "entity_type" to entity_type, "q" to q, "start" to start, "count" to count.toString(), "lat" to lat, "lon" to lon, "radius" to radius, "cuisines" to cuisines, "establishment_type" to establishment_type, "collection_id" to collection_id, "category" to category, "sort" to sort, "order" to order )
+return self.request( method = "GET", url = self.base_url + "/v2/restaurants/{$restaurant_id}", headers = { "Accept": "application/json", "Content-Type": "application/json", "Authorization": "Token $TOKEN", },
+return self.getEstablishments(city_id, lat, lon, **kwargs)
+return self.parse_cells()
+return self._event_fields
+return True
+return self.get_items(category, offset, REMO_DEFAULT_LIMIT)
+if filter_classified: item.metadata.update( { "remo_offset": item.offset, "remo_type": item.type, "remo_id": item.id, } )
+return cls.has_archiving
+return self.backend.fetch_items(category, **kwargs)
+@classmethod @Deprecated( """ This method is deprecated and will be removed in a future release. Please use the new method `setup_cmd_parser` instead. """, level = DeprecationLevel.ERROR, ) def setup_cmd_parser(cls): """Returns the ReMo argument parser.""" return cls.setup_cmd_parser()
+def crates(self, from_page: Int): return self.client.get("crates", params={"page": from_page}).json()
+return True
+return self.response.text
+val response = client.get( path, params = { "page" to page.toString() }
+self.client = Client( from_archive=from_archive, config=self.config, logger=self.logger, debug=self.debug, use_https=self.use_https, use_proxy=self.use_proxy, proxy_auth=self.proxy_auth, proxy_host=self.proxy_host, proxy_port=self.proxy_port, proxy_username=self.proxy_username, proxy_password=self.proxy_password, proxy_auth_type=self.proxy_auth_type, proxy_ssl_verify=self.proxy_ssl_verify, proxy_ca_cert=self.proxy_ca_cert, proxy_ca_path=self.proxy_ca_path, proxy_cert_key_path=self
+return """
+@classmethod @Deprecated( "Use `setup_cmd_parser` instead", level = DeprecationLevel.ERROR, ) fun setup_cmd_parser(): """Returns the Crates argument parser."""
+return self.client.fetch(category, from_date)
+val summary = self.client.get("summary")
+return self.get_answers(question_id, order_by = "updated DESC")
+return self.get_questions(offset=offset, order=ORDER_DESC)
+self.client = Client(self.url, self.user, self.password, self.proxy)
+if filter_classified: item.update_classified_fields()
+return self.request( method="POST", url=self.auth_url, data=data, headers=self.auth_headers,
+return self.get(uri, auth=self.auth)
+return requests.Response()
+return self.request( method = "POST", path = "/oauth/token", body_raw = dict( grant_type = grant_type, client_id = client_id, client_secret = client_secret, redirect_uri = redirect_uri, code = code, **params, ),
+return self.length
+if exc is not None: if exc.message != null: self.log.error(exc.message) else: self.log.error(exc) if exc.cause != null: self._handle_exception(exc.cause) else: self.log.error(exc)
+return self._get_token(code, **params)
+return urlparse(url).query.split('&').map { it.split('=', limit = 2).let { it[0] to it[1].removeSurrounding('"') }
+self.project = ProjectBuilder.buildProject( "test", "test", "test", "test", "test", "test", "test", "test", "test", "test", "test", "test", "test", "test", "test", "test", "test", "test", "test", "test", "test", "test", "test", "test", "test", "test", "test", "test", "test", "test", "test", "test", "test", "test", "test", "test", "test", "test
+self.parser = argparse.ArgumentParser( description="A simple script to parse a file and print the first line of it",
+
+return self.remove(name)
+self.context = context
+self.context = MockContext()
+self.content = content
+def response(self, status, headers, body): """Pretend to receive a response""" self.response = Response(status, headers, body)
+return self.args
+return lambda: receiver.onConfigChange(location)
+def messages(location, receiver): while True: time.sleep(1) if os.path.exists(location): for message in os.listdir(location): if message.endswith(".eml"): receiver.onMessage(message) else: os.remove(os.path.join(location, message)) else: os.mkdir(location)
+def __init__(self, url: str): self.url = url self.response = requests.get(url)
+def markGood(self, dummyValue):
+pass
+return TimerService(opt['freq'], opt['config'], opt['messages'])
+def run(restarter, checker, timer): while True: stale = checker(timer()) if stale: restarter(stale) time.sleep(1)
+val process = reactor.spawnProcess(args)
+pass
+pass
+if myEnv is None: myEnv = {}
+if master.hearts is not None: master.hearts.add(heart)
+if contents['type'] == 'restart': self.restart(contents['value'])
+if name in self.processes: del self.processes[name]
+def parse_args(self, args: List[str]) -> Namespace: parser = ArgumentParser( prog=self.prog, description=self.description, epilog=self.epilog, formatter_class=RawTextHelpFormatter, ) parser.add_argument( "--messages", "-m", help="messages directory", type=str, default=os.getenv("MESSAGES_DIR"), ) parser.add_argument( "--config", "-c", help="configuration directory", type=str, default=os.getenv("CONFIG_DIR"), ) parser.add_argument( "--subcommands", "-s", help="subcommands", type=str,
+places.restart(name)
+def makeService(opt): return TimerService(opt['freq'], opt['config'], opt['messages'])
+def run(restarter, checker, timer): while True: try: stale = checker(timer()) if stale: restarter(stale) except Exception: break
+restarter = opt.get("restarter")
+return keccak_256(data)
+val request = AccessRequest( pid_value, users, confirmed,

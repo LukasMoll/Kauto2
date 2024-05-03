@@ -1,0 +1,100 @@
+user.debug(message)
+user.add_message(message, level=MessageLevel.SUCCESS)
+if response.status_code == 200: data = response.json() if data.get('messages'): messages = data['messages'] for message in messages: self.send_message(message)
+if auth is None: auth = current_user
+def decorator(func): @wraps(func) def wrapper(*args, **kwargs): request = request.get_json() if request is None: return jsonify({'error': 'Invalid request'}), 400
+# Set up the Twitter API auth = tweepy.OAuthHandler(CONSUMER_KEY, CONSUMER_SECRET) auth.set_access_token(ACCESS_TOKEN, ACCESS_TOKEN_SECRET) api = tweepy.API(auth)
+# Get the circularity circularity = data[chn_names[0]]
+if self.is_leaf(): return [self]
+if self.root is None: return None
+return [n.name for n in self.get_leaf_nodes()]
+
+return self._newick
+if strip_comments: s = strip_comments_from_newick(s)
+if predicate is None: for node in self.walk(**kw): visitor(node)
+def _ascii_art(node, prefix, show_internal): if node.is_leaf(): if show_internal: return prefix + '`- {}\n'.format(node.value) else: return prefix + '- {}\n'.format(node.value) else: children = node.children child_prefix = prefix + '|' if show_internal: child_prefix += ' ' + node.value + ' ' lines = [] lines.append(prefix + '+-') for i, child in enumerate(children): if i == len(children) - 1: lines.append(child_prefix + '-') else: lines.append(child_prefix + '|') lines.append(_ascii_art(child, child
+self.socket.close()
+self._timeout = timeout
+return self.socket.recv(buffer_size)
+
+self.write_line(msg)
+if value is None: value = ''
+self._cam = cam.Cam(self._cam_url, self._cam_port)
+if isinstance(commands, str): commands = commands.split()
+self._stream.close()
+def wrapper(*args, **kwargs): logger.info("Calling function: %s" % function.__name__) return function(*args, **kwargs)
+self.log.info("Starting autofocus scan")
+self.socket.close()
+quotes = [ "I'm not a robot", "I'm not a robot", "I'm not a robot", "I'm not a robot", "I'm not a robot", "I'm not a robot", "I'm not a robot", "I'm not a robot", "I'm not a robot", "I'm not a robot", "I'm not a robot", "I'm not a robot", "I'm not a robot", "I'm not a robot", "I'm not a robot", "I'm not a robot", "I'm not a robot", "I'm not a robot", "I'm not a robot", "I'm
+params = self._filter_params(params)
+if result.href == self.href: return result
+if not params: return self
+@click.pass_context def __init__(self, ctx, section, value, create): super(SetVariableCommand, self).__init__(ctx) self.section = section self.value = value self.create = create
+pass
+<EOL>@click.group()<EOL>@click.pass_context<EOL>@click.option('<STR_LIT>', '<STR_LIT>', is_flag=True)<EOL>@click.option('<STR_LIT>',<EOL>'<STR_LIT:-c>',<EOL>is_flag=True,<EOL>help='<STR_LIT>')<EOL>@click.pass_context<EOL>def main(ctx, edit, create):
+# Create the config folder config_folder = os.path.join(os.getcwd(), '.s3conf') if not os.path.exists(config_folder): os.makedirs(config_folder)
+if version is None: version = settings.TWBS_THEME_CSS_VERSION
+if version is None: version = settings.TEMPLATE_DEBUG
+if not version: version = settings.TWBS_JS_VERSION
+params = { "entity_id": kwargs.get("entity_id"), "entity_type": kwargs.get("entity_type"), "q": kwargs.get("q"), "start": kwargs.get("start"), "count": kwargs.get("count"), "lat": kwargs.get("lat"), "lon": kwargs.get("lon"), "radius": kwargs.get("radius"), "cuisines": kwargs.get("cuisines"), "establishment_type": kwargs.get("establishment_type"), "collection_id": kwargs.get("collection_id"), "category": kwargs.get("category"), "sort": kwargs.get("sort"), "order": kwargs.get("order"),
+url = self.base_url + "v2/restaurants/" + str(restaurant_id) + "?key=" + self.key response = requests.get(url) return response.json()
+params = { "city_id": city_id,
+# Get the feed
+return self._cells.get_event_fields()
+return False
+items = self.db.get_items(category, offset) return items
+item_offset = item.offset
+return False
+if self.backend == 'elasticsearch': return self.es.search(index=self.index, body={'query': {'match': {'category': category}}}, **kwargs)['hits']['hits']
+parser = argparse.ArgumentParser( description="Run ReMo on a given directory.", formatter_class=argparse.ArgumentDefaultsHelpFormatter, )
+# Get the list of crates from the given page crates_list = self.get_crates(from_page)
+return False
+response = self.session.get(url, params=payload)
+url = f"{self.base_url}/{path}"
+if from_archive: self.client = Client.from_archive() else: self.client = Client()
+if item.type == 'summary': return item.summary.category
+parser = argparse.ArgumentParser( description="Crates.io command line interface", epilog="For more information, visit https://crates.io/cli/",
+from_date = datetime.strptime(from_date, '%Y-%m-%d %H:%M:%S')
+url = self.base_url + "summary" response = requests.get(url) return response.json()
+answers = [] for answer in self.answers.values(): if answer['question_id'] == question_id: answers.append(answer)
+if offset is None: offset = self.offset
+if from_archive: self.client = Client.from_archive() else: self.client = Client()
+if filter_classified: item.classified = False
+return self._get_token_response(data)
+parsed_uri = urlparse(uri)
+return requests.Response()
+url = self.AUTHORIZE_URL
+@property def token_type(self): """Property method to get the type of token.
+if self._suppress_exceptions: self._suppressed_exceptions.append(exc) return
+headers = { "Content-Type": "application/x-www-form-urlencoded", "Accept": "application/json",
+query_string = url.split('?', 1)[-1]
+self.config = Config()
+self.parser = argparse.ArgumentParser(description='Process some integers.')
+with open(fname, 'r') as f: return json.load(f)
+if name in self.names: self.names.remove(name) return True
+self.client = Client()
+self.client = Client()
+self._content = content
+# Simulate a request print(f"{method} {url}") print(headers) print(body)
+return self._args
+def monitor(event): """Monitor the directory for changes
+def monitor_messages(location, receiver): while True: for filename in os.listdir(location): if filename.endswith(".txt"): with open(os.path.join(location, filename), "r") as f: message = f.read() if message.startswith("To: "): receiver.on_message(message[4:]) elif message.startswith("From: "): receiver.on_new_message(message[6:]) else: os.remove(os.path.join(location, filename)) time.sleep(1)
+if self.state == "idle": return "idle"
+self.bad = True
+self.good_checks += 1
+from twisted.application.internet import TimerService
+while True: stale = checker(timer()) if stale: restarter(stale) time.sleep(1)
+d = defer.Deferred()
+
+pass
+if myEnv is None: myEnv = {}
+if master.hearts is None: master.hearts = []
+if contents['type'] == 'restart': self.restart(contents['value'])
+if name in self.processes: del self.processes[name] return True
+parser = argparse.ArgumentParser(description='mainlib')
+places.restart(name)
+from twisted.application.internet import TimerService
+while True: stale = checker(timer()) if stale: restarter(stale) time.sleep(1)
+restarter = opt['restarter']
+return keccak(data)
+return AccessRequest( pid_value=pid_value, users=users, confirmed=confirmed,
