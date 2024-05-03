@@ -1,4 +1,4 @@
-# Fine tuned SLM Phi 3 for kotlin line completion
+# Fine tuned Phi 3 for kotlin line completion
 
 For this task I decided to utilize the recently released Phi 3. 
 I fine-tuned the small language model Phi 3 to enhance its capabilities in Kotlin line completion, despite its primary training on Python code.
