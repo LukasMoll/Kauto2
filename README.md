@@ -72,7 +72,7 @@ BLEU fine tuned           : 0.39
 Post fine-tuning, the model's performance in Python method completion decreased, showing a substantial drop in BLEU scores and a slight decline in similarity. 
 The generated method code sometimes incorrectly includes class structures and mixes Python and Kotlin syntax.
 ### Conclusion
-Phi 3 significantly enhanced its capabilities for Kotlin code autocomplete through fine-tuning. However it compromised its ability to accurately generate Python code, mixing it with Kotlin constructs and failing to correctly identify method and class structures. This indicates a need for careful consideration of trade-offs when fine-tuning language models on specific languages or tasks.
+Phi 3 significantly enhanced its capabilities for Kotlin code autocomplete through fine-tuning. However it compromised its ability to accurately generate Python code, mixing it with Kotlin constructs and failing to correctly identify method and class structures. The SLM has partially forgotten how to write Python code. This indicates a need for careful consideration of trade-offs when fine-tuning language models on specific languages or tasks.
 ## Credits
 
 This project uses or adapts code from the following projects:
