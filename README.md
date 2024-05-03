@@ -6,7 +6,7 @@ I fine-tuned the small language model Phi 3 to enhance its capabilities in Kotli
 ## Prerequisites
 
 Ensure Python and all necessary CUDA tools are installed on your system. 
-To install all dependencies, run:
+To install all required dependencies, run:
 
 ```bash
 pip install -r requirements.txt
@@ -49,7 +49,7 @@ python analysis/generate_python_method_completion.py <model id> <fine tuned mode
 ```
 
 ### Results
-I focused on Kotlin line completion to evaluate my fine-tuned SLM, as it aligns with my frequent usage and is relatively straightforward to assess.
+I focused on Kotlin line completion to evaluate my fine-tuned SLM, as it aligns with my personal usage and is relatively straightforward to assess.
 Kotlin line completion:
 ```
 ----------------------------------
@@ -72,13 +72,13 @@ BLEU fine tuned           : 0.39
 Post fine-tuning, the model's performance in Python method completion decreased, showing a substantial drop in BLEU scores and a slight decline in similarity. 
 The generated method code sometimes incorrectly includes class structures and mixes Python and Kotlin syntax.
 ### Conclusion
-Phi 3 significantly enhanced its capabilities for Kotlin code autocomplete through fine-tuning. However, it compromised its ability to accurately generate Python code, mixing it with Kotlin constructs and failing to correctly identify method and class structures. This indicates a need for careful consideration of trade-offs when fine-tuning language models on specific languages or tasks.
+Phi 3 significantly enhanced its capabilities for Kotlin code autocomplete through fine-tuning. However it compromised its ability to accurately generate Python code, mixing it with Kotlin constructs and failing to correctly identify method and class structures. This indicates a need for careful consideration of trade-offs when fine-tuning language models on specific languages or tasks.
 ## Credits
 
 This project uses or adapts code from the following projects:
 
-- **[CodeXGLUE](https://github.com/microsoft/CodeXGLUE)** Used method completion and line completion code for Python
-- **[LLM-Workshop](https://github.com/pacman100/LLM-Workshop)** Used QLoRA PEFT fine tuning code
+- **[CodeXGLUE](https://github.com/microsoft/CodeXGLUE)** Used method completion and line completion code for evaluation.
+- **[LLM-Workshop](https://github.com/pacman100/LLM-Workshop)** Used QLoRA PEFT fine tuning code.
 
 I appreciate the hard work and effort by these contributors and their willingness to share their work with the open source community.
 
