@@ -48,20 +48,24 @@ python analysis/generate_python_method_completion.py
 ### Results
 I focused on Kotlin line completion to evaluate my fine-tuned SLM, as it aligns with my frequent usage and is relatively straightforward to assess.
 Kotlin line completion:
+```
 ----------------------------------
 Exact matches             : 31.71%
 Exact matches fine tuned  : 40.17%
 Similarity                : 59.95%
 Similarity fine tuned     : 65.88%
 ----------------------------------
+```
 These results indicate a significant improvement in exact matches and a respectable enhancement in similarity, confirming the success of the fine-tuning process.
 Python method completion:
+```
 ----------------------------------
 Similarity                : 36.61
 BLEU                      : 0.76
 Similarity fine tuned     : 33.44
 BLEU fine tuned           : 0.39
 ----------------------------------
+```
 Post fine-tuning, the model's performance in Python method completion decreased, showing a substantial drop in BLEU scores and a slight decline in similarity. 
 The generated method code sometimes incorrectly includes class structures and mixes Python and Kotlin syntax.
 ### Conclusion
